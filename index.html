@@ -5,29 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./src/assets/css/style.css">
-    <script src="src/assets/js/index.js" defer></script>
+    <title>Цветы Жизни</title>
+    <link rel="stylesheet" href="./src/css/style.css">    
+    <script src="./src/js/index.js" defer></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:600&display=swap" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link href="styles.css" rel="stylesheet">
+
 </head>
 
 <body>
-    <header>
-        <h2>Flowers of Life</h2>
-    
+    <header class="cont">
+        <h2 class="ico__title">Цветы Жизни</h2>
         <input class="switcher" type="checkbox" id="menu">
         <label class="open" for="menu">
           <i class="fa fa-bars"></i>
         </label>
         <nav>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contacts</a></li>
+            <li><a href="./index.html">Главная</a></li>
+            <li><a href="./src/members.html">Члены Команды</a></li>
+            <li><a href="./src/contacs.html">Контакты</a></li>
           </ul>
           <label class="close" for="menu">
             <i class="fa fa-times"></i>
@@ -38,12 +35,54 @@
 
 
     <main class="main">
-        
+        <section class="main-page cont">
+          <div class="main-page__content">
+            <div class="content__left">
+              <h1 class="left__title">
+                Привет, ты на странице Цветы Жизни, приятно тебя тут видет :o
+              </h1>
+              <p class="left__text">
+                тут ты можешь найти лучшее видео on my opinion(редактор :P), наши контакты, и увидеть членов команды.
+              </p>
+            </div>
+            <div class="content__right">
+              <img src="./src/img/koshka.png" alt="" class="right__img">
+            </div>
+          </div>
+        </section>
+
+        <section class="best-video">
+          <div class="video__content">
+            <h1 class="content__title">
+              Лучшее видео по мнению редактора
+            </h1>
+            <img src="./src/img/top 1.png" alt="" class="content__img">
+            <div class="mask"></div>
+          </div>
+        </section>
+
+        <section class="about-nas">
+          <h1 class="about-nas__title">Наши Ссылки :D</h1>
+          <ul><a href="https://github.com/hhhhhuk" class="about-nas__ssilki"><img src="src/img/git.png" alt="" class="ssilki__git obsh__ssilki"></a></ul>
+          <ul><a href="https://vk.com/public222410990" class="about-nas__ssilki"><img src="src/img/vk.png" alt="" class="ssilki__vk obsh__ssilki"></a></ul>
+          <ul><a href="https://www.youtube.com/@mcViolleta" class="about-nas__ssilki"><img src="src/img/YT.png" alt="" class="ssilki__yt obsh__ssilki"></a></ul>
+        </section>
+
+        <div class="modal">
+          <div class="modal__main">
+            <h1 class="main__title">
+              Канал Цветы Жизни - Дисс На Одноклассниц
+            </h1>
+            <video class="main__video" controls="True" loop="True">
+              <source src="./src/video/МЦ Виолетта — Дисс на Одноклассниц (2023).mp4"/>
+            </video>
+          </div>
+        </div>
     </main>
     <footer class="footer">
         
     </footer>
-</body>
 
+</body>
 
 </html>

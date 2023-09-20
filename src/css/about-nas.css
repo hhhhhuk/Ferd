@@ -1,0 +1,45 @@
+.about-nas {
+    width: 100%;
+    height: 100%;
+    padding: 50px 0;
+    background: linear-gradient(-95deg, #1f1f1f, #39f);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-direction: column;
+}
+
+.about-nas__title {
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    background: linear-gradient(270deg, #ffffff 0%, #dff7ff 66.67%, #bdf8fd 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    cursor: default;
+}
+
+.obsh__ssilki {
+    position: relative;
+    width: 50%;
+    cursor: cell;
+    width: 150px;
+    transition: .3s ease;
+}
+
+.obsh__ssilki:hover {
+    opacity: 40%;
+    transform: scale(1.2);
+}
+
+.ssilki__yt {
+    border-radius: 50px;
+}
+
+
+@media (max-width:425px) {
+    .about-nas {
+        flex-direction: column;
+    }
+}

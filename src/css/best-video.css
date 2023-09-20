@@ -1,0 +1,96 @@
+.best-video {
+    width: 100%;
+    display: flex;
+}
+
+.video__content {
+    width: 100%;
+    background-image: url(../img/Zick2.png);
+    height: 100%;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 60px;
+    align-items: center;
+    position: relative;
+}
+
+.content__title {
+    flex-grow: 1;
+    font-weight: 500;
+    width: 20%;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 30px;
+    background: linear-gradient(270deg, #ffffff 0%, #dff7ff 66.67%, #bdf8fd 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.content__img {
+    padding: 50px 0;
+    flex-grow: 1;
+    padding-right: 50px;
+    border-radius: 150px;
+    width: 20%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1.5s ease-out;
+    z-index: 3;
+}
+
+.content__img:hover {
+    opacity: 80%;
+    transform: scale(0.6);
+}
+
+
+
+.video__content .mask {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.video__content .content__title {
+    z-index: 3;
+    cursor: default;
+}
+
+@media (max-width:1024px) {
+    .content__title {
+        font-size: larger;
+    }
+}
+@media (max-width:425px) {
+    .content__title {
+        display: none;
+    }
+    .content__img {
+        position: relative;
+        left: 20px;
+        flex-grow: 0.8;
+    }
+}
+@media (max-width:375px) {
+    .content__title {
+        display: none;
+    }
+    .content__img {
+        position: relative;
+        left: 25px;
+    }
+}
+@media (max-width:320px) {
+    .content__title {
+        display: none;
+    }
+    .content__img {
+        position: relative;
+        left: 20px;
+    }
+}
