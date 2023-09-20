@@ -1,5 +1,5 @@
 let cimg = document.querySelector('.content__img')
-let modal = document.querySelector('.modal').addEventListener("touchstart", myTouch)
+let modal = document.querySelector('.modal')
 let video = document.querySelector('.main__video')
 function stopVideo(){
     video.pause();
@@ -17,11 +17,11 @@ cimg.onclick = () => {
     modal.style.visibility = 'visible';
     modal.style.opacity = '1';
 };
-cimg.myTouch = () => {
+    
+if (TouchEvent === cimg.onclick) {
     modal.style.visibility = 'visible';
     modal.style.opacity = '1';
 }
-
 
 const CloseModal = event => {
     const target = event.target;
@@ -33,5 +33,4 @@ const CloseModal = event => {
     }
 };
 
-modal.addEventListener('click', CloseModal);
-modal.addEventListener('touch', CloseModal);
+modal.addEventListener('click','touch', CloseModal);
