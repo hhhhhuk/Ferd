@@ -17,6 +17,10 @@ cimg.onclick = () => {
     modal.style.visibility = 'visible';
     modal.style.opacity = '1';
 };
+cimg.ontouch = () => {
+    modal.style.visibility = 'visible';
+    modal.style.opacity = '1';
+};
 
 const CloseModal = event => {
     const target = event.target;
@@ -29,3 +33,4 @@ const CloseModal = event => {
 };
 
 modal.addEventListener('click', CloseModal);
+modal.addEventListener('touch', CloseModal);
