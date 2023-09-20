@@ -5,7 +5,7 @@
 
 .video__content {
     width: 100%;
-    background-image: url(../img/Zick2.png);
+    background-image: url(../img/anime.jpg);
     height: 100%;
     background-attachment: fixed;
     display: flex;
@@ -33,7 +33,7 @@
     flex-grow: 1;
     padding-right: 50px;
     border-radius: 150px;
-    width: 20%;
+    width: 10%;
     height: 80%;
     display: flex;
     justify-content: center;
