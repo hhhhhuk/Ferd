@@ -33,4 +33,5 @@ const CloseModal = event => {
     }
 };
 
-modal.addEventListener('click','touch', CloseModal);
+modal.addEventListener('click', CloseModal);
+modal.addEventListener('touch', CloseModal);
