@@ -42,4 +42,7 @@
     .about-nas {
         flex-direction: column;
     }
+    .obsh__ssilki {
+        width: 100px;
+    }
 }

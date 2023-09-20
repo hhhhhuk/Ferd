@@ -1,4 +1,4 @@
-document.getElementById('open-modal-btn').addEventListener("click", function() {
+document.getElementById('open-modal-img').addEventListener("click", function() {
     document.getElementById("mymodal").classList.add("open")
 })
 
