@@ -5,8 +5,8 @@
 
 .video__content {
     width: 100%;
-    background-image: url(../img/anime.jpg);
-    height: 100%;
+    background-image: url(../img/Zick2.png);
+    height: 2000px;
     background-attachment: fixed;
     display: flex;
     justify-content: center;
@@ -33,8 +33,8 @@
     flex-grow: 1;
     padding-right: 50px;
     border-radius: 150px;
-    width: 10%;
-    height: 80%;
+    width: 5%;
+    height: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,6 +65,10 @@
     .content__title {
         font-size: larger;
     }
+    .content__img {
+        height: 20%;
+    }
+
 }
 @media (max-width:425px) {
     .content__title {
