@@ -6,7 +6,7 @@
 .video__content {
     width: 100%;
     background-image: url(../img/Zick2.png);
-    height: 2000px;
+    height: 100%;
     background-attachment: fixed;
     display: flex;
     justify-content: center;

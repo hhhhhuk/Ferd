@@ -30,6 +30,8 @@
 .ssilki1 {
     text-decoration: none;
     color: black;
+    gap: 10px;
+    font-size: larger;
 }
 .window__right {
     flex-grow: 1;
